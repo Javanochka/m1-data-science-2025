@@ -18,7 +18,7 @@ people = [
 answers = {'example': 1,
            'bla': 0,
            'javanochka': 2,
-           'vcinoyx': 3}
+           'vcinoyx': 2}
 
 
 def format_person_info(person):
