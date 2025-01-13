@@ -8,12 +8,12 @@ people = [
     Person(github_login='example', first_name='Name', last_name='Surname',
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
     Person(github_login='vcinonyx', first_name='Tad', last_name='Marharian',
-           facts=['I can bark like a dog', 'I am an NLP student', 'I am not a human being']),
+           facts=['I can\'t do a backflip', 'I am an NLP student', 'I am not a human being']),
 ]
 
 # facts are numerated from 0
 answers = {'example': 1,
-           'vcinonyx': 2,}
+           'vcinonyx': 2}
 
 
 def format_person_info(person):
